@@ -1,0 +1,801 @@
+.in-top{
+	width: 1200px;
+	margin: 0 auto;
+	height: 5px;
+	background-color: #401ec1;
+}
+
+header{
+	background: url(../img/头部背景.png) repeat-x;
+}
+nav{
+	border-top: 1px solid #999;
+	border-bottom: 4px solid #346EAE;
+	margin-top: 20px;
+}
+nav li{
+	width: 100px;
+	line-height: 50px;
+	margin-left: 10px;
+	font-size: 18px;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+nav li:hover{
+	background: #346eae;
+}
+nav li a{
+	transition: all 0.5s;
+}
+nav li:hover a{
+	color: #fff;
+}
+.logo-img img{
+	width: 100%;
+}
+.logo-img{
+	width: 300px;
+}
+.logo-btn input[type='text']{
+	width: 200px;
+	outline: none;
+	line-height: 24px;
+	border: 1px solid #346EAE;
+	text-indent: 0.5em;
+}
+.logo-btn input[type='button']{
+	width: 50px;
+	outline: none;
+	line-height: 24px;
+	background: #346EAE;
+	border: 1px solid #346EAE;
+	cursor: pointer;
+	color: #fff;
+	font-size: 14px;
+}
+.logo-search p{
+	line-height: 36px;
+	color: #346EAE;
+}
+.in-banner{
+	width: 1200px;
+	height: 320px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+.in-banner ul{
+	position: absolute;
+	left: -1200px;
+	top: 0;
+}
+.in-banner li{
+	font-size: 0;
+	width: 1200px;
+	float: left;
+}
+.in-banner img{
+	width: 100%;
+}
+
+.in-tages{
+	width: 300px;
+}
+
+.in-tages-text1{
+	background: #333;
+	width: 260px;
+	padding: 0 20px;
+	height: 500px;
+	box-shadow: 0 0 5px #346EAE;
+	text-align: center;
+}
+.in-tages-text1 h3{
+	margin: 20px auto;
+	color: #fff;
+}
+.in-tages-text1 p{
+	text-indent: 2em;
+	font-size: 14px;
+	color: #999;
+}
+.in-tage-img{
+	width: 260px;
+	overflow: hidden;	
+}
+.in-tages-text1 img{
+	width: 150%;
+	text-align: center;
+	margin-left: -25%;
+}
+
+.in-tage-link{
+	margin-top: 20px;
+	text-align: right;
+}
+.in-tage-link a{
+	font-size: 14px;
+	color: #346EAE;
+}
+
+.in-new2{
+	border-top: 1px solid #999;
+	margin-top: 50px;
+	padding-top: 30px;
+}
+
+.in-left{
+	width: 530px;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+}
+.in-left,.in-right h2{
+	color: #8B43FF;
+}
+.in-right{
+	width: 500px;
+	height: 400px;
+	overflow: hidden;
+	margin-left: 30px;
+}
+.in-right h2{
+	height: 30px;
+}
+.in-box{
+	position: relative;
+	height: 340px;
+	overflow: hidden;
+}
+.in-gg-time{
+	width: 50px;
+	height: 49px;
+	text-align: center;
+}
+.in-gg-time h3{
+	background: #346EAE;
+	line-height: 29px;
+	font-size: 24px;
+	color: #fff;
+}
+.in-gg-time p{
+	background: #999;
+	color: #fff;
+	line-height: 20px;
+	font-size: 14px;
+}
+.in-tages-text2{
+	width: 400px;
+}
+.in-tages-text2 p{
+	margin-left: 20px;
+	line-height: 49px;
+	font-size: 20px;
+}
+.in-movie p{
+	position: absolute;
+	top: 44%;
+	left: 42%;
+	display: none;
+	cursor: pointer;
+}
+
+.in-movie h3{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	color: #fff;
+	background: rgba(0,0,0,.5);
+	text-indent: 2em;
+	font-size: 24px;
+	line-height: 80px;
+	transition: all 0.5s;
+}
+.in-movie:hover h3{
+	bottom: -80px;
+}
+.in-new2 h2{
+	margin-bottom: 30px;
+}
+
+.in-right li{
+	padding: 10px 0;
+	border-bottom: 1px dashed #777;
+}
+
+.in-link{
+	height: 100px;
+	margin: 50px 0 30px 0;
+	background: #346EAE;
+}
+.in-link p{
+	font-size: 18px;
+	color: #fff;
+	margin-left: 30px;
+	line-height: 50px;
+}
+.in-box li{
+	cursor: pointer;
+}
+
+
+footer p{
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+}
+
+footer{
+	padding: 50px 0;
+	background: #333333;
+}
+
+/*以上是首页*/ 
+
+
+
+
+
+
+
+
+
+.map ul{
+	float: right;
+	margin-right: 20px;
+}
+.g-banner{
+	position: relative;
+	height: 250px;
+}
+.g-banner h2{
+	position: absolute;
+	z-index: 2;
+	color: #fff;
+	font-size: 48px;
+	letter-spacing: 4px;
+	line-height: 200px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+}
+.g-ban-img{
+	position: absolute;
+	width: 100%;
+	height: 250px;
+	overflow: hidden;
+	left: 0;
+	top: 0;
+	background: url(../img/bg1.jpg) no-repeat;
+	background-size: 100%;
+}
+.g-ban-img img{
+	height: 250px;
+	width: auto;
+}
+.g-column{
+	width: 300px;
+	background: #584dad;
+}
+.g-column h1{
+	color: #fff;
+	text-align: center;
+	margin: 30px 0 20px;
+}
+.g-column li{
+	width: 250px;
+	float: right;
+	text-indent: 3em;
+	line-height: 60px;
+	font-size: 20px;
+	border-bottom: 1px solid #999;
+	background: #F1F1F1;
+	cursor: pointer;
+}
+.g-column li a{
+	color: #777;
+}
+.g-column li:hover a{
+	color: #401EC1;
+}
+.g-text{
+	width: 700px;
+	margin-left: 75px;
+	text-indent: 2em;
+	color: #777;
+	/*background: #000000;*/
+	margin-top: 100px;
+	line-height: 26px;
+}
+.g-text p{
+	margin: 20px 0;
+}
+.g-leader{
+	margin-left: 150px;
+}
+.g-leader ul li{
+	width: 500px;
+	text-align: center;
+	line-height: 50px;
+}
+.g-leader li div{
+	background: #346EAE;
+	color: #fff;
+	cursor: pointer;
+}
+.g-leader li div:hover{
+	color: #fff000;
+}
+.namecard{
+	background: rgba(255,255,255,.8);
+	width: 100%;
+	position: fixed;
+	z-index: 99;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.namecard>div{
+	position: absolute;
+	width: 500px;
+	margin-left: -250px;
+	left: 50%;
+	margin-top: -150px;
+	top: 50%;
+	height: 300px;
+	background: #f1f1f1;
+	border: 1px solid #777;
+}
+.namecard div div:first-child{
+	width: 150px;
+	height: 200px;
+	background: #000000;
+}
+.namecard div div{
+	margin: 40px 0 0 30px;
+}
+.namecard p{
+	width: 250px;
+	line-height: 26px;
+	color: #666;
+}
+.namecard>div>img{
+	position: absolute;
+	top: 50%-150px;
+	left: 50%+300px;
+	width: 30px;
+	cursor: pointer;
+}
+.namecard div div img{
+	width: 150px;
+	height: 200px;
+}
+.g-school-spirit{
+	width: 700px;
+	margin-left: 50px;
+	text-indent: 2em;
+	margin-top: 100px;
+	line-height: 26px;
+}
+.g-school-spirit img{
+	margin: 0 auto;
+}
+.g-school-spirit dt{
+	text-align: center;
+	color: #401EC1;
+	font-size: 24px;
+	font-weight: bold;
+	margin: 20px 0;
+}
+.g-school-spirit dd{
+	color: #777;
+	margin: 10px 0;
+}
+.g-linyi{
+	width: 600px;
+	margin-left: 100px;
+	margin-top: 70px;
+}
+.g-ly-img{
+	width: 200px;
+	height: 150px;
+	background: #000000;
+}
+.g-linyi p{
+	width: 300px;
+	margin-left: 20px;
+	font-size: 14px;
+	line-height: 30px;
+	margin-top: 10px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+}
+.g-ly-tages{
+	margin-top: 30px;
+}
+.g-linyi a{
+	display: block;
+	color: #346EAE;
+	width: 300px;
+	text-align: right;
+	margin-top: 20px;
+}
+
+.g-linyi span{
+	margin-right: 10px;
+	font-weight: bold;
+}
+.g-linyi-1{
+	width: 600px;
+	margin-left: 100px;
+	margin-top: 80px;
+}
+
+
+.g-linyi-1 p{
+	text-indent: 3em;
+	font-size: 14px;
+	line-height: 30px;
+	margin-top: 30px;
+}
+.g-linyi-1 span{
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+}
+.g-linyi-1 img{
+	margin: 20px 0;
+}
+/*以上是学校概括*/
+
+
+
+
+
+
+.s-ban-img{
+	position: absolute;
+	width: 100%;
+	height: 250px;
+	overflow: hidden;
+	left: 0;
+	top: 0;
+	background: url(../img/bg2.jpg) no-repeat;
+	background-size: 100%;
+}
+.s-ban-img img{
+	height: 250px;
+	width: auto;
+}
+.school-department{
+	width: 600px;
+	margin-left: 200px;
+	margin: 70px auto 60px;
+}
+.school-department ul>li>p{
+	font-size: 24px;
+	font-weight: bold;
+	color: #fff;
+	width: 200px;
+	line-height: 60px;
+	background: #584DAD;
+	text-align: center;
+	border-radius: 10px;
+	margin: 10px 0;
+	cursor: pointer;
+}
+
+.school-department ol>li>p{
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	width: 380px;
+	line-height: 40px;
+	background: #FFBE05;
+	border-radius: 6px;
+	font-size: 18px;
+	margin: 10px 50px;
+	display: none;
+	cursor: pointer;
+}
+.school-department ol div{
+	text-indent: 4em;
+	width: 300px;
+	color: #ddd;
+	background: #333;
+	margin: 10px 80px;
+	cursor: pointer;
+	line-height: 24px;
+	padding: 10px 0;
+	display: none;
+}
+
+
+/*以上是学习资源*/
+
+.new-text{
+	width: 100%;
+	height: 60px;
+	margin: 0 auto!important;
+	text-align: center;
+	line-height: 24px;
+}
+
+
+
+
+/*以上是新闻*/
+
+
+.study-resource>div>ul li:nth-child(odd){
+	background: #584DAD;
+	color: #fff;
+}
+.study-resource>div>ul{
+	margin-top: 50px;
+}
+.study-resource>div>ul li:nth-child(even){
+	background: #eee;
+	color: #584DAD;
+}
+.r-img img{
+	width: 400px;
+	margin: 50px 40px;
+}
+.resource-text{
+	width: 600px;
+	height: 300px;
+}
+.resource-text h1{
+	font-size: 50px;
+	line-height: 100px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+
+
+/*以上是学习资源*/
+.serve{
+	background: #584DAD;
+	padding: 100px 0 70px;
+	margin: 50px 0;
+	color: #fff;
+}
+.serve li{
+	float: left;
+	width: 270px;
+	height: 300px;
+	position: relative;
+	cursor: pointer;
+	line-height: 300px;
+	text-align: center;
+}
+
+
+#max{
+	width: 540px;
+	height: 600px;
+}
+
+.serve-l,.serve-r{
+	width: 540px;
+}
+.serve-img1{
+	background: url(../img/点播.jpg) no-repeat right;
+	background-size: auto 100%;
+}
+.serve-img1{
+	position: relative;
+}
+.serve-img1:before{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: rgba(0,0,0,.3);
+	width: 100%;
+	height: 600px;
+}
+.serve-img1 p{
+	position: absolute;
+	z-index: 9;
+	width: 100%;
+	font-size: 50px;
+	text-align: center;
+	line-height: 600px;
+	transition: all 0.5s;
+}
+.serve-l{
+	font-size: 24px;
+}
+.serve-l li:nth-child(3){
+	width: 270px;
+	color: #444;
+	line-height: 50px;
+	background: #f1f1f1;
+}
+.serve-l li:nth-child(3) p{
+	width: 200px;
+	margin: 100px auto;
+}
+.serve-img1:hover p{
+	line-height: 500px;
+}
+.serve-img2{
+	position: relative;
+	background: url(../img/depositphotos_37931717-stock-photo-credit-cards.jpg) no-repeat;
+	background-size: auto 100%;
+}
+.serve-img2:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 300px;
+	background: rgba(139,199,43,0.6);
+}
+.serve-img2 p{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+.serve-img3{
+	background: url(../img/school.png) no-repeat center;
+	background-size: 100%;
+	transition: all 0.5s;
+}
+.serve-img3:hover{
+	background-size: 120%;
+}
+.serve-img3:hover:before{
+	background: rgba(255,200,200,0.4);
+}
+.serve-img3:before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 600px;
+	background: rgba(255,200,200,0.6);
+	transition: all 0.4s;
+}
+.serve-img3 p{
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-weight: bold;
+	font-size: 50px;
+	width: 100%;
+	line-height: 600px;
+}
+.s1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin-top: 60px;
+	line-height: 80px;
+	width: 200px;
+	margin-left: 35px;
+}
+.s1 p{
+	background: #fff;
+	color: #777;
+	margin-bottom: 20px;
+	display: none;
+}
+.serve-r li:nth-child(2){
+	position: relative;
+	background: #8B43FF;
+}
+.serve-r li:nth-child(2)>p{
+	font-size: 24px;
+}
+.serve-img4{
+	background: url(../img/car.png) no-repeat center;
+	background-size: auto 100%;
+	position: relative;
+}
+.serve-img4 p{
+	color: #401EC1;
+	font-weight: bold;
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+}
+.serve-img4:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 300px;
+	background: rgba(255,255,255,.6);
+}
+.serve-img5{
+	background: url(../img/网络导航.png) no-repeat left;
+	background-size: auto 100%; 
+	transition: all 1s;
+	font-size: 20px;
+	font-weight: bold;
+}
+.serve-img5:hover{
+	background-position: right;
+}
+.serve-r li:nth-child(3){
+	font-size: 26px;
+	transition: all 0.4s;
+}
+.serve-r li:nth-child(3):hover{
+	font-size: 30px;
+}
+.serve-l li:nth-child(6){
+	background: #222;
+	position: relative;
+}
+.serve-l li:nth-child(6)>p{
+	line-height: 580px;
+	font-size: 40px;
+}
+.s3{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 540px;
+	height: 600px;
+	line-height: 100px;
+	font-size: 24px;
+}
+.s3 p{
+	margin: 75px 0;
+	display: none;
+}
+.s3 p:hover{
+	text-decoration: underline;
+}
+.serve-r li:nth-child(6){
+	font-size: 24px;
+}
+.serve-r li:nth-child(7){
+	background: url(../img/weibo.png) no-repeat center;
+	background-size: auto 100%;
+}
+.serve-r li:nth-child(7) p{
+	background: #584DAD;
+	font-size: 30px;
+	transition: all 0.5s;
+}
+.serve-r li:nth-child(7) p:hover{
+	opacity: 0;
+}
+.serve-r li:nth-child(8){
+	background: url(../img/weixin.jpg) no-repeat center;
+	background-size: auto 100%;
+}
+.serve-r li:nth-child(8) p{
+	background: #584DAD;
+	transition: all 0.5s;
+	font-size: 30px;
+}
+.serve-r li:nth-child(8) p:hover{
+	opacity: 0;
+}
+
+
+
+#active{
+	border-left: 4px solid #ffbe05;
+	color: #584DAD;
+}
